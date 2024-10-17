@@ -1,0 +1,88 @@
+.dashboard {
+  height: 100vh;
+  overflow-x: hidden;
+}
+.reportClass {
+  height: 100% !important;
+  overflow: hidden;
+}
+.logoBar {
+  display: none !important;
+}
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    137deg,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.login-container {
+  width: 40%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.login-card {
+  padding: 20px 0;
+}
+
+.login-header {
+  text-align: center;
+  margin-block: 1em 3em;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: none;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  flex: 1;
+}
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+.login-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.logo-login {
+  width: 6em;
+  position: absolute;
+}
+.dashboard-header {
+  text-align: center;
+}
